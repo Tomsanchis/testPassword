@@ -1,5 +1,5 @@
 function testPassword(str) {
-    return a + b;
+    return str.length >= 12 && typeof(str) === "string";
   }
 
 module.exports = testPassword;
