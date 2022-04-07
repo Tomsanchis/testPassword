@@ -7,3 +7,7 @@ test('test string return true', () => {
 test('test string > 12', () => {
     expect(testPassword("stringqsdqsdqsdsd")).toBe(true);
 });
+
+test('test string f is not string return null', () => {
+    expect(testPassword(1)).toBeNull();
+  });
